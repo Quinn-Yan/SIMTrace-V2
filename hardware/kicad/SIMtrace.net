@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sa 02 Jul 2011 12:48:40 CEST
+# EESchema Netlist Version 1.1 created  Sa 02 Jul 2011 19:41:58 CEST
 (
  ( /4DC804A6 PIN_ARRAY_2X1 BT1 4.5-6V
   ( 1 N-000019 )
@@ -96,11 +96,11 @@
   ( 1 /UDP_PUP )
   ( 2 //RESET )
  )
- ( /4DCB8C13 SOD123 D2 1N5819
+ ( /4DCB8C13 SMB_STPS340U D2 Schottky
   ( 1 /USBVCC )
   ( 2 N-000063 )
  )
- ( /4DCB8C0D SOD123 D3 1N5819
+ ( /4DCB8C0D SMB_STPS340U D3 Schottky
   ( 1 N-000019 )
   ( 2 N-000063 )
  )

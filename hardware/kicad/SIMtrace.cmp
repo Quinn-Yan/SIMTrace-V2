@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-06-08)-testing date = Sa 02 Jul 2011 12:48:40 CEST
+Cmp-Mod V01 Created by CvPCB (2011-06-08)-testing date = Sa 02 Jul 2011 19:41:58 CEST
 
 BeginCmp
 TimeStamp = /4DC804A6;
@@ -171,15 +171,15 @@ EndCmp
 BeginCmp
 TimeStamp = /4DCB8C13;
 Reference = D2;
-ValeurCmp = 1N5819;
-IdModule  = SOD123;
+ValeurCmp = Schottky;
+IdModule  = SMB_STPS340U;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DCB8C0D;
 Reference = D3;
-ValeurCmp = 1N5819;
-IdModule  = SOD123;
+ValeurCmp = Schottky;
+IdModule  = SMB_STPS340U;
 EndCmp
 
 BeginCmp

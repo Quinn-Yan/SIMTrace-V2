@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sa 02 Jul 2011 12:49:26 CEST
+EESchema Schematic File Version 2  date Sa 02 Jul 2011 19:42:14 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:at91sam7sxxx-au
 LIBS:SIMtrace
 LIBS:smartcard
+LIBS:SIMtrace-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
-Date "23 jun 2011"
+Date "2 jul 2011"
 Rev "1.0_production"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
@@ -858,8 +859,8 @@ L ZENER D2
 U 1 1 4DCB8C13
 P 1250 6500
 F 0 "D2" H 1250 6600 50  0000 C CNN
-F 1 "1N5819" H 1250 6400 40  0000 C CNN
-F 2 "SOD123" H 1250 6500 60  0001 C CNN
+F 1 "Schottky" H 1250 6400 40  0000 C CNN
+F 2 "SMB_STPS340U" H 1250 6500 60  0001 C CNN
 	1    1250 6500
 	1    0    0    -1  
 $EndComp
@@ -868,8 +869,8 @@ L ZENER D3
 U 1 1 4DCB8C0D
 P 1250 6800
 F 0 "D3" H 1250 6900 50  0000 C CNN
-F 1 "1N5819" H 1250 6700 40  0000 C CNN
-F 2 "SOD123" H 1250 6800 60  0001 C CNN
+F 1 "Schottky" H 1250 6700 40  0000 C CNN
+F 2 "SMB_STPS340U" H 1250 6800 60  0001 C CNN
 	1    1250 6800
 	1    0    0    -1  
 $EndComp
