@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 23 Jun 2011 12:55:36 CEST
+EESchema Schematic File Version 2  date Sa 02 Jul 2011 12:49:26 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,7 +32,6 @@ LIBS:valves
 LIBS:at91sam7sxxx-au
 LIBS:SIMtrace
 LIBS:smartcard
-LIBS:SIMtrace-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -40,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
 Date "23 jun 2011"
-Rev "1.0"
+Rev "1.0_production"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
 Comment2 ""
@@ -1035,7 +1034,7 @@ U 1 1 4DC7A27C
 P 950 650
 F 0 "D1" H 950 750 50  0000 C CNN
 F 1 "Schottky" H 950 550 40  0000 C CNN
-F 2 "SOD123" H 950 650 60  0001 C CNN
+F 2 "SMB_STPS340U" H 950 650 60  0001 C CNN
 F 4 "30V" H 1200 550 50  0000 C CNN "Field1"
 F 5 "500mA" H 1450 550 50  0000 C CNN "Field2"
 	1    950  650 
@@ -1567,7 +1566,7 @@ U 1 1 4DC5A250
 P 9950 1900
 F 0 "U1" H 9950 2200 60  0000 C CNN
 F 1 "FLASH" H 9950 1600 60  0000 C CNN
-F 2 "SOIC8" H 9950 1900 60  0001 C CNN
+F 2 "SOC008_WIDE" H 9950 1900 60  0001 C CNN
 	1    9950 1900
 	1    0    0    -1  
 $EndComp
@@ -1861,7 +1860,7 @@ U 1 1 4CF5471F
 P 6100 6700
 F 0 "D5" H 5850 6750 50  0000 C CNN
 F 1 "GREEN" H 6400 6750 50  0000 C CNN
-F 2 "LED-0603" H 6100 6700 60  0001 C CNN
+F 2 "LED-0805" H 6100 6700 60  0001 C CNN
 	1    6100 6700
 	-1   0    0    -1  
 $EndComp
@@ -1871,7 +1870,7 @@ U 1 1 4CF54717
 P 6100 6500
 F 0 "D4" H 5850 6550 50  0000 C CNN
 F 1 "RED" H 6350 6550 50  0000 C CNN
-F 2 "LED-0603" H 6100 6500 60  0001 C CNN
+F 2 "LED-0805" H 6100 6500 60  0001 C CNN
 	1    6100 6500
 	-1   0    0    -1  
 $EndComp

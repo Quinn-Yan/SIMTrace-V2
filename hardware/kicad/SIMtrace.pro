@@ -1,5 +1,5 @@
-update=Di 21 Jun 2011 02:42:41 CEST
-last_client=pcbnew
+update=Sa 02 Jul 2011 12:46:46 CEST
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -71,11 +71,6 @@ LibName30=valves
 LibName31=lib/at91sam7sxxx-au
 LibName32=lib/SIMtrace
 LibName33=lib/smartcard
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -95,7 +90,6 @@ TxtLar=120
 MSegLar=100
 LastNetListRead=SIMtrace.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -109,3 +103,10 @@ LibName10=dip_sockets
 LibName11=lib/SIMtrace
 LibName12=lib/smartcard
 LibName13=lib/logo
+LibName14=lib/production
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
