@@ -1,10 +1,10 @@
-Cmp-Mod V01 Genere par PcbNew le Di 21 Jun 2011 15:43:44 CEST
+Cmp-Mod V01 Genere par PcbNew le Sa 02 Jul 2011 20:50:33 CEST
 
 BeginCmp
 TimeStamp = 4DCD07C6
 Path = /4DC51F05
 Reference = P3;
-ValeurCmp = REBEL;
+ValeurCmp = FFC_SIM;
 IdModule  = FFC_REBELSIM;
 EndCmp
 
@@ -14,22 +14,6 @@ Path = /4DCBE233
 Reference = J2;
 ValeurCmp = SERIAL;
 IdModule  = JACK_2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07C8
-Path = /4CF5471F
-Reference = D5;
-ValeurCmp = GREEN;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07CA
-Path = /4CF54717
-Reference = D4;
-ValeurCmp = RED;
-IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
@@ -76,7 +60,7 @@ BeginCmp
 TimeStamp = 4DCD07D7
 Path = /4DC5A30D
 Reference = R18;
-ValeurCmp = 10k;
+ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
 
@@ -84,7 +68,7 @@ BeginCmp
 TimeStamp = 4DCD07D9
 Path = /4DC799F2
 Reference = R17;
-ValeurCmp = 10k;
+ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
 
@@ -116,7 +100,7 @@ BeginCmp
 TimeStamp = 4DCD07E3
 Path = /4D0206C7
 Reference = R12;
-ValeurCmp = 100k;
+ValeurCmp = 100K;
 IdModule  = SM0603;
 EndCmp
 
@@ -124,7 +108,7 @@ BeginCmp
 TimeStamp = 4DCD07E5
 Path = /4D020DC6
 Reference = R11;
-ValeurCmp = 1k5;
+ValeurCmp = 1K5;
 IdModule  = SM0603;
 EndCmp
 
@@ -393,38 +377,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 4DCD0828
-Path = /4DCB8C0D
-Reference = D3;
-ValeurCmp = 1N5819;
-IdModule  = SOD123;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD082A
-Path = /4DCB8C13
-Reference = D2;
-ValeurCmp = 1N5819;
-IdModule  = SOD123;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD082C
-Path = /4DC7A27C
-Reference = D1;
-ValeurCmp = Schottky;
-IdModule  = SOD123;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD082D
-Path = /4DC5A250
-Reference = U1;
-ValeurCmp = FLASH;
-IdModule  = SOIC8;
-EndCmp
-
-BeginCmp
 TimeStamp = 4DCD0831
 Path = /4CE84486
 Reference = IC3;
@@ -500,7 +452,7 @@ BeginCmp
 TimeStamp = 4DFFA0F3
 Path = /4DFF9902
 Reference = R22;
-ValeurCmp = 100k;
+ValeurCmp = 100K;
 IdModule  = SM0603;
 EndCmp
 
@@ -548,8 +500,56 @@ BeginCmp
 TimeStamp = 4DCD082E
 Path = /4DFF8B97
 Reference = IC2;
-ValeurCmp = LDO;
+ValeurCmp = AP7332;
 IdModule  = SOT26;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD082C
+Path = /4DC7A27C
+Reference = D1;
+ValeurCmp = Schottky;
+IdModule  = SMB_STPS340U;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07CA
+Path = /4CF54717
+Reference = D4;
+ValeurCmp = RED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07C8
+Path = /4CF5471F
+Reference = D5;
+ValeurCmp = GREEN;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD082D
+Path = /4DC5A250
+Reference = U1;
+ValeurCmp = FLASH;
+IdModule  = SOC008_WIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD082A
+Path = /4DCB8C13
+Reference = D2;
+ValeurCmp = Schottky;
+IdModule  = SMB_STPS340U;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD0828
+Path = /4DCB8C0D
+Reference = D3;
+ValeurCmp = Schottky;
+IdModule  = SMB_STPS340U;
 EndCmp
 
 EndListe

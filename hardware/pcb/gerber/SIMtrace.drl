@@ -1,5 +1,5 @@
 M48
-;DRILL file {PCBnew (2011-06-08)-testing} date Sa 02 Jul 2011 13:34:46 CEST
+;DRILL file {PCBnew (2011-06-08)-testing} date Sa 02 Jul 2011 20:51:29 CEST
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -14,7 +14,7 @@ G05
 M71
 T1
 X45.898Y-108.265
-X52.578Y-111.902
+X52.705Y-113.157
 X57.953Y-107.302
 X59.083Y-108.410
 X60.457Y-109.499
