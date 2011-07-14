@@ -1,0 +1,16 @@
+Source: simtrace
+Section: net
+Priority: optional
+Maintainer: Holger Freyther <zecke@selfish.org>
+Build-Depends: libusb-dev, make, libosmocore-dev
+Standards-Version: 3.8.4
+Homepage: http://simtrace.osmocom.org/
+Vcs-Git: git://git.osmocom.org/simtrace.git
+Vcs-Browser: http://git.osmocom.org/gitweb?p=simtrace.git;a=summary
+
+Package: simtrace
+Section: net
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SIMtrace host utility
+

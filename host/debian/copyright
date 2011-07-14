@@ -1,0 +1,28 @@
+This work was packaged for Debian by:
+
+    Holger Freyther <zecke@selfish.org> on Thu, 14 Jul 2011 17:55:07 +0200
+
+It was downloaded from:
+
+    git://git.osmocom.org/simtrace.git
+
+Upstream Author(s):
+
+    Harald Welte <laforge@gnumonks.org>
+
+Copyright:
+
+    Copyright (C) 2006-2011 Harald Welte <laforge@gnumonks.org>
+
+License:
+
+    GNU General Public License, Version 2
+
+The Debian packaging is:
+
+    Copyright (C) 2011 Holger Freyther <zecke@selfish.org>
+
+
+and is licensed under the GPL version 2,
+see "/usr/share/common-licenses/GPL-2".
+

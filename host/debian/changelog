@@ -1,0 +1,23 @@
+simtrace (0.0.1+deb1-4) natty; urgency=low
+
+  * Fix the osmocore dependency. 
+
+ -- Holger Freyther <zecke@selfish.org>  Thu, 14 Jul 2011 21:11:39 +0200
+
+simtrace (0.0.1+deb1-3) natty; urgency=low
+
+  * Try to fix the dependencies.
+
+ -- Holger Freyther <zecke@selfish.org>  Thu, 14 Jul 2011 18:44:06 +0200
+
+simtrace (0.0.1+deb1-2) natty; urgency=low
+
+  * Try to fix the build.
+
+ -- Holger Freyther <zecke@selfish.org>  Thu, 14 Jul 2011 18:22:44 +0200
+
+simtrace (0.0.1+deb1-1) natty; urgency=low
+
+  * Initial release of the SIMtrace.
+
+ -- Holger Freyther <zecke@selfish.org>  Mon, 14 Jul 2011 18:00:00 +0200
