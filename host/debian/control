@@ -2,7 +2,7 @@ Source: simtrace
 Section: net
 Priority: optional
 Maintainer: Holger Freyther <zecke@selfish.org>
-Build-Depends: libusb-dev, make, libosmocore-dev
+Build-Depends: libusb-dev, make, libosmocore-dev, debhelper
 Standards-Version: 3.8.4
 Homepage: http://simtrace.osmocom.org/
 Vcs-Git: git://git.osmocom.org/simtrace.git
