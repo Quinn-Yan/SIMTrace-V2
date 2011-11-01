@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sa 02 Jul 2011 19:42:14 CEST
+EESchema Schematic File Version 2  date Tue 01 Nov 2011 10:16:17 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,21 +32,21 @@ LIBS:valves
 LIBS:at91sam7sxxx-au
 LIBS:SIMtrace
 LIBS:smartcard
-LIBS:SIMtrace-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
-Date "2 jul 2011"
-Rev "1.0_production"
+Date "1 nov 2011"
+Rev "v1.1p"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 9600 3050
 Text Label 2650 5600 3    60   ~ 0
 VCC_SIM
 Connection ~ 2250 5450
@@ -309,10 +309,6 @@ Wire Wire Line
 Connection ~ 8200 2500
 Wire Wire Line
 	7450 2000 8200 2000
-Wire Wire Line
-	9300 2800 9300 3050
-Wire Wire Line
-	9300 3050 9600 3050
 Wire Wire Line
 	9600 3350 9450 3350
 Wire Wire Line
@@ -1889,15 +1885,6 @@ Text Label 7600 3900 0    60   ~ 0
 DRXD
 Text Label 7600 3800 0    60   ~ 0
 DTXD
-$Comp
-L 3V3 #PWR044
-U 1 1 4CE9AE51
-P 9300 2800
-F 0 "#PWR044" H 9300 2900 40  0001 C CNN
-F 1 "3V3" H 9300 2925 40  0000 C CNN
-	1    9300 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L DEBUG P2
 U 1 1 4CE9ADCF
