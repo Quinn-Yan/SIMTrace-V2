@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-06-08)-testing date = Sa 02 Jul 2011 19:41:58 CEST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 03 Nov 2011 11:55:14 CET
 
 BeginCmp
 TimeStamp = /4DC804A6;
@@ -270,7 +270,7 @@ BeginCmp
 TimeStamp = /4CFCD6C9;
 Reference = P1;
 ValeurCmp = JTAG;
-IdModule  = pin_array_10x2;
+IdModule  = PIN_ARRAY_10X2;
 EndCmp
 
 BeginCmp
