@@ -1,68 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sa 02 Jul 2011 20:50:33 CEST
-
-BeginCmp
-TimeStamp = 4DCD07C6
-Path = /4DC51F05
-Reference = P3;
-ValeurCmp = FFC_SIM;
-IdModule  = FFC_REBELSIM;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07C7
-Path = /4DCBE233
-Reference = J2;
-ValeurCmp = SERIAL;
-IdModule  = JACK_2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07CB
-Path = /4CFCD6C9
-Reference = P1;
-ValeurCmp = JTAG;
-IdModule  = pin_array_10x2;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07CC
-Path = /4DC683ED
-Reference = JP2;
-ValeurCmp = ERASE;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07CE
-Path = /4DC68259
-Reference = JP1;
-ValeurCmp = TEST;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DD21AFA
-Path = /4DC804A6
-Reference = BT1;
-ValeurCmp = 4.5-6V;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07D5
-Path = /4CE915DE
-Reference = X1;
-ValeurCmp = 18.432MHz;
-IdModule  = Q_49U3HMS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07D7
-Path = /4DC5A30D
-Reference = R18;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
+Cmp-Mod V01 Genere par PcbNew le Tue 06 Dec 2011 00:37:02 CET
 
 BeginCmp
 TimeStamp = 4DCD07D9
@@ -442,7 +378,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 4DCD0830
-Path = /4DC6A187
+Path = /4EB57076
 Reference = IC4;
 ValeurCmp = CB3Q3244;
 IdModule  = SSOP20_BDQ;
@@ -513,27 +449,11 @@ IdModule  = SMB_STPS340U;
 EndCmp
 
 BeginCmp
-TimeStamp = 4DCD07CA
-Path = /4CF54717
-Reference = D4;
-ValeurCmp = RED;
-IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD07C8
-Path = /4CF5471F
-Reference = D5;
-ValeurCmp = GREEN;
-IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD082D
-Path = /4DC5A250
-Reference = U1;
-ValeurCmp = FLASH;
-IdModule  = SOC008_WIDE;
+TimeStamp = 4DD21AFA
+Path = /4DC804A6
+Reference = BT1;
+ValeurCmp = 4.5-6V;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -550,6 +470,86 @@ Path = /4DCB8C0D
 Reference = D3;
 ValeurCmp = Schottky;
 IdModule  = SMB_STPS340U;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD082D
+Path = /4DC5A250
+Reference = U1;
+ValeurCmp = FLASH;
+IdModule  = SOC008_WIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07C8
+Path = /4CF5471F
+Reference = D5;
+ValeurCmp = GREEN;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07CA
+Path = /4CF54717
+Reference = D4;
+ValeurCmp = RED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07CB
+Path = /4CFCD6C9
+Reference = P1;
+ValeurCmp = JTAG;
+IdModule  = PIN_ARRAY_10X2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07CC
+Path = /4DC683ED
+Reference = JP2;
+ValeurCmp = ERASE;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07CE
+Path = /4DC68259
+Reference = JP1;
+ValeurCmp = TEST;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07C7
+Path = /4DCBE233
+Reference = J2;
+ValeurCmp = JACK_2.5;
+IdModule  = JACK_2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07D5
+Path = /4CE915DE
+Reference = X1;
+ValeurCmp = 18.432MHz;
+IdModule  = Q_49U3HMS;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07D7
+Path = /4DC5A30D
+Reference = R18;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD07C6
+Path = /4DC51F05
+Reference = P3;
+ValeurCmp = REBELSIM;
+IdModule  = FFC_REBELSIM;
 EndCmp
 
 EndListe
