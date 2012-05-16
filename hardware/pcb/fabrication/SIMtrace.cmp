@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 06 Dec 2011 00:37:02 CET
+Cmp-Mod V01 Genere par PcbNew le Wed 16 May 2012 19:39:00 CEST
 
 BeginCmp
 TimeStamp = 4DCD07D9
@@ -197,14 +197,6 @@ TimeStamp = 4DCD080B
 Path = /4D020ED8
 Reference = C15;
 ValeurCmp = 100nF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 4DCD080D
-Path = /4DC6A5DE
-Reference = C14;
-ValeurCmp = 1uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -513,7 +505,7 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = 4DCD07CE
+TimeStamp = 4FB38928
 Path = /4DC68259
 Reference = JP1;
 ValeurCmp = TEST;
@@ -550,6 +542,14 @@ Path = /4DC51F05
 Reference = P3;
 ValeurCmp = REBELSIM;
 IdModule  = FFC_REBELSIM;
+EndCmp
+
+BeginCmp
+TimeStamp = 4DCD080D
+Path = /4DC6A5DE
+Reference = C14;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
 EndCmp
 
 EndListe

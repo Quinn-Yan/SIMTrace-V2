@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 May 2012 12:55:25 CEST
+EESchema Schematic File Version 2  date Wed 16 May 2012 13:12:21 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
 Date "16 may 2012"
-Rev "v1.1p"
+Rev "v1.2p"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
 Comment2 ""

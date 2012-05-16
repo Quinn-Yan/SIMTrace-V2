@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 16 May 2012 13:08:20 CEST
+PCBNEW-BOARD Version 1 date Wed 16 May 2012 19:42:17 CEST
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -35,7 +35,7 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 320
+TrackWidth 80
 TrackWidthList 98
 TrackWidthList 160
 TrackWidthList 197
@@ -64,7 +64,7 @@ PadSize 157 197
 PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 62750 26200
-PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ../pcb/gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ../pcb/gerber/))
 $EndSETUP
 
 $EQUIPOT
