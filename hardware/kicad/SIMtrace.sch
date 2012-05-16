@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 05 Nov 2011 18:41:14 CET
+EESchema Schematic File Version 2  date Wed 16 May 2012 12:55:25 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +32,13 @@ LIBS:valves
 LIBS:at91sam7sxxx-au
 LIBS:SIMtrace
 LIBS:smartcard
-LIBS:SIMtrace-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
-Date "5 nov 2011"
+Date "16 may 2012"
 Rev "v1.1p"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
@@ -1310,8 +1309,8 @@ L C C14
 U 1 1 4DC6A5DE
 P 1750 7000
 F 0 "C14" H 1750 7100 50  0000 L CNN
-F 1 "1uF" H 1750 6900 50  0000 L CNN
-F 2 "SM0603" H 1750 7000 60  0001 C CNN
+F 1 "4.7uF" H 1750 6900 50  0000 L CNN
+F 2 "SM0805" H 1750 7000 60  0001 C CNN
 	1    1750 7000
 	1    0    0    -1  
 $EndComp
