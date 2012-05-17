@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 May 2012 13:12:21 CEST
+EESchema Schematic File Version 2  date Do 17 Mai 2012 16:14:52 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SIMtrace hardware"
-Date "16 may 2012"
+Date "17 may 2012"
 Rev "v1.2p"
 Comp "osmocom"
 Comment1 "CC-BY-SA"
@@ -46,6 +46,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8600 1700 8400 1700
 Wire Wire Line
 	10550 6350 9850 6350
 Wire Wire Line
@@ -83,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 6500 1750 6500
 Wire Wire Line
-	8250 2300 8250 2250
+	7450 2300 8500 2300
 Wire Wire Line
 	650  5450 1250 5450
 Wire Wire Line
@@ -106,8 +108,6 @@ Wire Wire Line
 	7450 5100 7700 5100
 Wire Wire Line
 	8400 1700 8400 1600
-Wire Wire Line
-	7450 2300 8350 2300
 Wire Wire Line
 	2050 6650 1600 6650
 Wire Wire Line
@@ -134,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	900  3550 900  3700
 Wire Wire Line
-	8800 1100 9150 1100
+	9000 1100 9150 1100
 Wire Wire Line
 	7450 1700 7650 1700
 Wire Wire Line
@@ -166,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4800 2900
 Wire Wire Line
-	8950 2550 8950 2650
+	9100 2550 9100 2650
 Connection ~ 7550 5200
 Wire Wire Line
 	7650 5200 7450 5200
@@ -244,7 +244,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 2050 10950 2050
 Wire Wire Line
-	9350 1750 8750 1750
+	9350 1750 8950 1750
 Wire Wire Line
 	7450 3700 7900 3700
 Wire Wire Line
@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 2600 7450 2600
 Wire Wire Line
-	7450 2400 8350 2400
+	8700 2400 7450 2400
 Wire Wire Line
 	8350 4000 7450 4000
 Connection ~ 8200 2600
@@ -529,7 +529,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3600 7900 3600
 Wire Wire Line
-	9350 1850 8750 1850
+	9350 1850 8950 1850
 Wire Wire Line
 	10550 1950 10950 1950
 Wire Wire Line
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1350 7650 1350
 Wire Wire Line
-	9350 1950 8750 1950
+	9350 1950 8950 1950
 Wire Wire Line
 	7450 2900 8350 2900
 Wire Wire Line
@@ -598,8 +598,8 @@ Wire Wire Line
 	7450 5300 7550 5300
 Connection ~ 7550 5300
 Wire Wire Line
-	8950 2050 8950 1950
-Connection ~ 8950 1950
+	9100 2050 9100 1950
+Connection ~ 9100 1950
 Wire Wire Line
 	3300 3050 3300 2900
 Connection ~ 3300 2900
@@ -638,9 +638,9 @@ Wire Wire Line
 Wire Wire Line
 	7450 1900 8300 1900
 Wire Wire Line
-	8600 1700 8600 1400
+	8800 1700 8800 1400
 Wire Wire Line
-	8150 1100 8400 1100
+	8150 1100 8600 1100
 Wire Wire Line
 	1150 3650 1150 3000
 Wire Wire Line
@@ -670,12 +670,12 @@ Wire Wire Line
 Wire Wire Line
 	5050 1700 5050 1600
 Wire Wire Line
-	7450 3200 8600 3200
+	7450 3200 8800 3200
 Wire Wire Line
-	8600 3200 8600 2200
+	8800 3200 8800 2200
 Wire Wire Line
 	7650 1350 7650 1700
-Connection ~ 8250 2300
+Connection ~ 8400 2300
 Wire Wire Line
 	7700 4900 7550 4900
 Wire Wire Line
@@ -693,9 +693,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 5650 650  5650
 Wire Wire Line
-	8250 2250 8400 2250
-Wire Wire Line
-	8400 2250 8400 2200
+	8400 2300 8400 2200
 Wire Wire Line
 	8200 2000 8200 2500
 Wire Wire Line
@@ -704,7 +702,7 @@ Connection ~ 900  5450
 Wire Wire Line
 	900  6200 900  5450
 Wire Wire Line
-	2250 5450 2250 5650
+	2250 5650 2250 5450
 Wire Wire Line
 	10350 4950 10800 4950
 Wire Wire Line
@@ -727,6 +725,19 @@ Wire Wire Line
 	7900 6650 7850 6650
 Wire Wire Line
 	7850 6650 7850 5850
+Wire Wire Line
+	8600 2400 8600 2200
+Connection ~ 8600 2400
+$Comp
+L R R23
+U 1 1 4FB50700
+P 8600 1950
+F 0 "R23" V 8680 1950 50  0000 C CNN
+F 1 "100K" V 8600 1950 50  0000 C CNN
+F 2 "SM0603" H 8600 1950 60  0001 C CNN
+	1    8600 1950
+	1    0    0    -1  
+$EndComp
 Text Label 10000 6350 0    60   ~ 0
 RST_PHONE
 Text Label 7850 6300 1    60   ~ 0
@@ -1027,28 +1038,28 @@ F 1 "3V3" H 3750 6775 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 7450 4800
-Text Label 8850 1100 0    60   ~ 0
+Text Label 9050 1100 0    60   ~ 0
 UDP_PUP
 $Comp
 L R R16
 U 1 1 4DC7A441
-P 8600 1950
-F 0 "R16" V 8680 1950 50  0000 C CNN
-F 1 "10K" V 8600 1950 50  0000 C CNN
-F 2 "SM0603" H 8600 1950 60  0001 C CNN
-	1    8600 1950
+P 8800 1950
+F 0 "R16" V 8880 1950 50  0000 C CNN
+F 1 "10K" V 8800 1950 50  0000 C CNN
+F 2 "SM0603" H 8800 1950 60  0001 C CNN
+	1    8800 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L BC847 Q2
 U 1 1 4DC7A43A
-P 8600 1200
-F 0 "Q2" H 8600 1050 50  0000 R CNN
-F 1 "BC847" V 9000 1200 50  0000 R CNN
-F 2 "SOT23_BC847" H 8600 1200 60  0001 C CNN
-F 4 "45V" V 8850 1100 50  0000 C CNN "Field1"
-F 5 "100mA" V 8850 1350 50  0000 C CNN "Field2"
-	1    8600 1200
+P 8800 1200
+F 0 "Q2" H 8800 1050 50  0000 R CNN
+F 1 "BC847" V 9200 1200 50  0000 R CNN
+F 2 "SOT23_BC847" H 8800 1200 60  0001 C CNN
+F 4 "45V" V 9050 1100 50  0000 C CNN "Field1"
+F 5 "100mA" V 9050 1350 50  0000 C CNN "Field2"
+	1    8800 1200
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1225,20 +1236,20 @@ $EndComp
 $Comp
 L GND #PWR017
 U 1 1 4DC799FC
-P 8950 2650
-F 0 "#PWR017" H 8950 2650 30  0001 C CNN
-F 1 "GND" H 8950 2580 30  0001 C CNN
-	1    8950 2650
+P 9100 2650
+F 0 "#PWR017" H 9100 2650 30  0001 C CNN
+F 1 "GND" H 9100 2580 30  0001 C CNN
+	1    9100 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R17
 U 1 1 4DC799F2
-P 8950 2300
-F 0 "R17" V 9030 2300 50  0000 C CNN
-F 1 "10K" V 8950 2300 50  0000 C CNN
-F 2 "SM0603" H 8950 2300 60  0001 C CNN
-	1    8950 2300
+P 9100 2300
+F 0 "R17" V 9180 2300 50  0000 C CNN
+F 1 "10K" V 9100 2300 50  0000 C CNN
+F 2 "SM0603" H 9100 2300 60  0001 C CNN
+	1    9100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1423,7 +1434,7 @@ Text Label 7600 2900 0    60   ~ 0
 I/O_SW
 Text Label 7600 3300 0    60   ~ 0
 WP
-Text Label 8850 1950 0    60   ~ 0
+Text Label 9000 1950 0    60   ~ 0
 WP
 Text Label 7050 1350 0    60   ~ 0
 BOOTLOADER
@@ -1554,9 +1565,9 @@ Text Label 10700 2050 0    60   ~ 0
 MOSI
 Text Label 10700 1950 0    60   ~ 0
 SCK
-Text Label 8850 1850 0    60   ~ 0
+Text Label 9050 1850 0    60   ~ 0
 MISO
-Text Label 8850 1750 0    60   ~ 0
+Text Label 9050 1750 0    60   ~ 0
 CS
 Text Label 7600 3700 0    60   ~ 0
 CS
