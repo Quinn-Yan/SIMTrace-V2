@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 16 May 2012 19:39:00 CEST
+Cmp-Mod V01 Genere par PcbNew le Fri 18 May 2012 19:25:56 CEST
 
 BeginCmp
 TimeStamp = 4DCD07D9
@@ -516,7 +516,7 @@ BeginCmp
 TimeStamp = 4DCD07C7
 Path = /4DCBE233
 Reference = J2;
-ValeurCmp = JACK_2.5;
+ValeurCmp = SERIAL;
 IdModule  = JACK_2.5;
 EndCmp
 
@@ -550,6 +550,14 @@ Path = /4DC6A5DE
 Reference = C14;
 ValeurCmp = 4.7uF;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FB68030
+Path = /4FB50700
+Reference = R23;
+ValeurCmp = 100K;
+IdModule  = SM0603;
 EndCmp
 
 EndListe

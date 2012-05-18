@@ -1,4 +1,4 @@
-### Module positions - created on Wed 16 May 2012 19:37:56 CEST ###
+### Module positions - created on Fri 18 May 2012 19:25:28 CEST ###
 ### Printed by PcbNew version pcbnew (2011-05-25)-stable
 ## Unit = inches, Angle = deg.
 ## Side : Front
@@ -52,4 +52,5 @@ R19      100K                -4.0950     1.3200     270.0    Front
 R20      10k1%               -3.9850     1.3200      90.0    Front
 R21      10k1%               -3.8750     1.3200     270.0    Front
 R22      100K                -2.3000     2.3300     180.0    Front
+R23      100K                -4.2700     1.3500     270.0    Front
 ## End
