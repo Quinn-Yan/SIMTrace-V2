@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: So 27 Okt 2013 10:58:11 CET
+EESchema-DOCLIB  Version 2.0  Date: So 27 Okt 2013 12:00:41 CET
 #
 $CMP BC847
 F transistors/bipolar/*.*
@@ -23,6 +23,10 @@ $ENDCMP
 #
 $CMP LM3046M
 F datasheet/LM3046.pdf
+$ENDCMP
+#
+$CMP SCHOTTKY
+D Diode schottky
 $ENDCMP
 #
 #End Doc Library
