@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 16 May 2012 12:56:06 CEST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = So 27 Okt 2013 10:59:09 CET
 
 BeginCmp
 TimeStamp = /4DC804A6;
@@ -162,24 +162,24 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DC7A27C;
+TimeStamp = /526C4CBB;
 Reference = D1;
-ValeurCmp = Schottky;
-IdModule  = SMB_STPS340U;
+ValeurCmp = MBR0530;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DCB8C13;
+TimeStamp = /526C4CDD;
 Reference = D2;
-ValeurCmp = Schottky;
-IdModule  = SMB_STPS340U;
+ValeurCmp = MBR0530;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DCB8C0D;
+TimeStamp = /526C4CEC;
 Reference = D3;
-ValeurCmp = Schottky;
-IdModule  = SMB_STPS340U;
+ValeurCmp = MBR0530;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
@@ -197,6 +197,13 @@ IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /526C4D13;
+Reference = D6;
+ValeurCmp = MBR0530;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
 TimeStamp = /4DC79E48;
 Reference = FB1;
 ValeurCmp = FILTER;
@@ -208,6 +215,13 @@ TimeStamp = /4DC68E1D;
 Reference = FB2;
 ValeurCmp = FILTER;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C41E4;
+Reference = IC1;
+ValeurCmp = FPF2109;
+IdModule  = SOT23-5;
 EndCmp
 
 BeginCmp
@@ -229,13 +243,6 @@ TimeStamp = /4EB57076;
 Reference = IC4;
 ValeurCmp = CB3Q3244;
 IdModule  = SSOP20_BDQ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4DFF9774;
-Reference = IC5;
-ValeurCmp = FPF2005;
-IdModule  = SOT353;
 EndCmp
 
 BeginCmp
@@ -407,6 +414,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /526C5035;
+Reference = R15;
+ValeurCmp = 100k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /4DC7A441;
 Reference = R16;
 ValeurCmp = 10K;
@@ -452,6 +466,20 @@ BeginCmp
 TimeStamp = /4DFF9902;
 Reference = R22;
 ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB50700;
+Reference = R23;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C5026;
+Reference = R24;
+ValeurCmp = 100k;
 IdModule  = SM0603;
 EndCmp
 
