@@ -1,5 +1,5 @@
-### Module positions - created on Mo 11 Nov 2013 15:28:41 CET ###
-### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
+### Module positions - created on Fri 20 Jun 2014 03:26:31 PM CEST ###
+### Printed by Pcbnew version pcbnew (2013-dec-23)-stable
 ## Unit = mm, Angle = deg.
 ## Side : Front
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -45,7 +45,7 @@ R11      1K5              SM0603             27.6860    29.4640       0.0    Fro
 R12      100K             SM0603             67.7970    38.5020       0.0    Front
 R13      150R             SM0603             43.9420     5.4610     180.0    Front
 R14      150R             SM0603             43.9420     7.4930     180.0    Front
-R15      100k             SM0603             56.2970    15.0020     270.0    Front
+R15      100K             SM0603             56.2970    15.0020     270.0    Front
 R16      10K              SM0603             68.6943    27.3380     180.0    Front
 R17      10K              SM0603             49.6240    12.4460       0.0    Front
 R18      10K              SM0603             47.5691     5.7506     270.0    Front
@@ -54,5 +54,7 @@ R20      10k1%            SM0603             21.4630    42.9260      90.0    Fro
 R21      10k1%            SM0603             24.2570    42.9260     270.0    Front
 R22      100K             SM0603             64.2620    17.2720     180.0    Front
 R23      100K             SM0603             14.2240    42.1640     270.0    Front
-R24      100k             SM0603             65.7970     3.0020       0.0    Front
+R24      100K             SM0603             65.7970     3.0020       0.0    Front
+R25      100K             SM0603             32.1310    14.4780      90.0    Front
+R26      100K             SM0603             30.2260    15.2400      90.0    Front
 ## End
