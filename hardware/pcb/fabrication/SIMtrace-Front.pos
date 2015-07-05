@@ -1,4 +1,4 @@
-### Module positions - created on So 22 Jun 2014 23:24:39 PDT ###
+### Module positions - created on So 17 Mai 2015 14:58:54 CEST ###
 ### Printed by Pcbnew version pcbnew (2013-may-18)-stable
 ## Unit = mm, Angle = deg.
 ## Side : Front
@@ -25,12 +25,22 @@ C21      1uF              SM0603             61.3410     6.3500      90.0    Fro
 C22      1uF              SM0603             61.3410     9.9060     270.0    Front
 C23      100nF            SM0603             32.5145    31.8440     180.0    Front
 C24      100nF            SM0603             58.2970    16.5020     270.0    Front
+D1       MBR0530          SOD123             74.2970    34.5020     270.0    Front
+D2       MBR0530          SOD123             73.2790     8.1280       0.0    Front
+D3       MBR0530          SOD123             73.2790     3.4290       0.0    Front
 D4       RED              LED-0805           40.1320     5.0800     180.0    Front
 D5       GREEN            LED-0805           40.1320     7.7470     180.0    Front
+D6       MBR0530          SOD123             61.7970     3.0020       0.0    Front
 FB1      FILTER           SM0805             73.7870    12.8270     270.0    Front
 FB2      FILTER           SM0805             28.0543    31.8694     180.0    Front
 IC1      FPF2109          SOT23-5            61.2970    16.0020       0.0    Front
+IC2      AP7332           SOT26              64.3890     9.3980       0.0    Front
+IC3      MCU              TQFP_64            46.9900    24.1300     270.0    Front
 IC4      CB3Q3244         SSOP20_BDQ         18.4150    35.4330     180.0    Front
+P3       FFC              FFC_REBELSIM        5.8420    36.1950     270.0    Front
+P4       SIM              SIM_AMPHENOL       26.6700    13.3350     180.0    Front
+Q1       BC847            SOT23_BC847        78.6130    25.7810      90.0    Front
+Q2       BC847            SOT23_BC847        70.4850    30.9880       0.0    Front
 R1       100K             SM0603             80.0100    29.3370     180.0    Front
 R2       10K              SM0603             73.6600    21.3360      90.0    Front
 R3       1K5              SM0603             71.8820    21.3360      90.0    Front
@@ -57,4 +67,8 @@ R23      100K             SM0603             14.2240    42.1640     270.0    Fro
 R24      100K             SM0603             65.7970     3.0020       0.0    Front
 R25      100K             SM0603             32.1310    14.4780      90.0    Front
 R26      100K             SM0603             30.2260    15.2400      90.0    Front
+SW1      RESET            PUSH_BUTTON         7.2390    49.4030     180.0    Front
+SW2      BOOTLOADER       PUSH_BUTTON        20.7010    49.4030     180.0    Front
+U1       FLASH            SOC008_WIDE        53.4670     7.2390     270.0    Front
+X1       18.432MHz        Q_49U3HMS          42.0370    39.6240     180.0    Front
 ## End
