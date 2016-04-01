@@ -1,16 +1,16 @@
-G04 start of page 7 for group -4079 idx -4079 *
+G04 start of page 5 for group -4079 idx -4079 *
 G04 Title: (unknown), topsilk *
-G04 Creator: pcb 20110918 *
-G04 CreationDate: So 09 Feb 2014 19:21:30 GMT UTC *
-G04 For: kevredon *
+G04 Creator: pcb 20140316 *
+G04 CreationDate: Fr 01 Apr 2016 11:10:24 GMT UTC *
+G04 For: laforge *
 G04 Format: Gerber/RS-274X *
-G04 PCB-Dimensions: 787402 500000 *
+G04 PCB-Dimensions (mil): 7874.02 5000.00 *
 G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
 %LNTOPSILK*%
-%ADD44C,0.0079*%
-G54D44*X689546Y429155D02*X640334D01*
+%ADD19C,0.0079*%
+G54D19*X689546Y429155D02*X640334D01*
 X699389Y438998D02*X689546Y429155D01*
 X699389Y476399D02*Y438998D01*
 X640334Y429155D02*Y476392D01*
